@@ -1,9 +1,9 @@
 body {
-    background-color:rgb(235, 233, 233);
+    background-color: #4abdac;
     margin-top: 0px;
   }
   h1{ background-color: rgb(0, 0, 0);
-  text-decoration-color: #6cddff;
+  text-decoration-color: #FC4A1A;
 }
 
   .first{background-color: #c1edfa;
@@ -15,7 +15,7 @@ body {
   margin: 10px;
 text-align: justify;}
 
-  .container{text-decoration-color:  #6cddff;
+  .container{text-decoration-color:  #FC4A1A;
   background-color: rgb(0, 0, 0);
   margin: 10px;}
 
@@ -31,26 +31,41 @@ list-style: none;
 background-color: black;}
 
 nav li{display: inline-block;
-margin-left: 35px;
-margin-right: 35px;
+margin-left: 40px;
+margin-right: 40px;
 background-color: black;}
 
-nav a {color: #6cddff;
+nav a {color: #FC4A1A;
 text-decoration: none;
 text-transform: capitalize;}
 
-div.col4{width: 1000px;}
+div.col4{width: 1000px;
+        background-color: rgb(235, 233, 233);}
 
 div.col4 div {float: left;
               height: 300px;
               }
 
-div.col-cell{ width:240px;
+div.col-cell{ width:226px;
               padding: 4px;
-              border-style: dotted ;
-              border-width: 1px;
-              background-color:#c7c7ca;}
+              background-color:#F7B733;
+              margin-left: 4px;
+              margin-right: 4px;
+              box-shadow: silver;
+              border-left: #6cddff;
+              border-bottom: #6cddff;
+            border: bottom 1px;}
 
-div.clear{clear: both;}
+div.clear{clear: both;} 
 
 p.news{font-size: 10px;text-align: justify; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.Footer{
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #dfdce3;
+color: black;
+text-align: center;
+}
