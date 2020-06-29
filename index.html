@@ -4,27 +4,63 @@
         <title>
             Black Lives Matter
          </title>
-    </head>
-    <link rel="stylesheet" href="index.css">
+         <link rel="stylesheet" href="index.css">
+         <link rel="stylesheet" href="slideshow.css">
+     
+        </head>
     <body>
         <div class="container">
             <img src="image\bl3.png" alt="Logo" class="logo" width="200px"height="100px">
             <h2 style="font-size:initial;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman'">
-            <nav>
+              <nav>
                 <ul style="font-family: Verdana, Geneva, Tahoma, sans-serif;"">
                   <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
                   <li><a href="News.html">News</a></li>
-                  <li><a href="Help.html">How You can Help</a></li>
-                  <li><a href="about.html">About</a></li>
+                  <li><a href="Help.html">Take Action Now</a></li>
                   <li><a href="contact.html">Contact</a></li>
                   <li><input type="text" name="search" value="Search"></li>
                 </ul>
-              </nav>
-              
+              </nav>              
             </div>
-    </h2> <br>
-<h2>&nbsp;  </h2>
-<br><br><br>
+    </h2> <br><br><br><br><br><br><br><br>
+<!-- Slideshow container -->
+
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="image\protest.jpg" style="width:100%">
+      <div class="text">Protest</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="image\roadpaint.jpg" style="width:100%">
+      <div class="text">Black Lives Matter message on the road in New York.</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="image\b&wprotest.png" style="width:100%">
+      <div class="text">Protest</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a title="Back" class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a title="Next" class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <script type="text/javascript" src="slideshow.js"></script>
 <center>
     <div style="border-width: 5px;margin-left: 25px; margin-right: 25px;">
            <h3>Why does it matter?</h3>
@@ -59,5 +95,10 @@
 </div>
 <div class="clear"> </div>
 </center>
+<div class="Footer">
+  <p>
+    Yay
+  </p>
+</div>
         </body>
     </Html>
