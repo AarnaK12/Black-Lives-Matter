@@ -6,6 +6,10 @@ body {
   text-decoration-color: #FC4A1A;
 }
 
+p{
+  text-align: justify;
+}
+
   .first{background-color: #c1edfa;
  text-decoration-color:black;}
  
@@ -86,13 +90,22 @@ footer a{
 
 th{
   text-transform: capitalize;
-  font-size: 20px;
 }
 
+.headlbl
+{
+  text-transform: capitalize;
+  font-size: 30px;
+  text-align: left;
+}
 .Sign{
   width: 350px;
   height: 400px;
   background-color: #000000;
+}
+
+.contact{
+  margin-left: 50px;
 }
 
 .helpbanner{
